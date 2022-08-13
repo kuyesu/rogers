@@ -54,9 +54,7 @@ export default function TodoApp({
     <SessionProvider session={session}>
       <TodoAppContext.Provider value={{ projects, user }}>
         <Layout>
-          <NextUIProvider>
             <Component {...pageProps} />
-          </NextUIProvider>
         </Layout>
       </TodoAppContext.Provider>
     </SessionProvider>
