@@ -152,12 +152,12 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
             <motion.div layout className="lg:pl-8 flex-1">
               <iframe
                 src="https://docs.google.com/presentation/d/e/2PACX-1vTMTBIeSTlOWk4wcZayp5xUdQpliaNExhVD8dSyd4lVLAmH5cSLjCN_y3F6mmB_gR_RTLgZPM6gdAtq/embed?start=false&loop=false&delayms=60000"
-                frameborder="0"
+                frameBorder="0"
                 width="480"
                 height="299"
-                allowfullscreen="true"
-                mozallowfullscreen="true"
-                webkitallowfullscreen="true"
+                allowFullScreen="true"
+                mozallowFullFcreen="true"
+                webkitFllowFullscreen="true"
               ></iframe>
             </motion.div>
           </AnimateSharedLayout>
