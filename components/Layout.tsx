@@ -155,6 +155,9 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
                 frameBorder="0"
                 width="480"
                 height="299"
+                allowFullScreen={true}
+                mozAllowFullFcreen={true}
+                webkitAllowFullScreen={true}
               ></iframe>
             </motion.div>
           </AnimateSharedLayout>
